@@ -6,7 +6,7 @@
   <title>Dark Vinyl Player</title>
   <style>
     body {
-      background: radial-gradient(circle, #444, #000);
+      background: radial-gradient(circle, #222, #111);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,10 +18,11 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      background-image: url('vine-design.png');
-      background-size: cover;
-      background-repeat: repeat;
-      opacity: 0.3; /* Adjust transparency for subtle effect*/
+      background-image: url('dark-vines.png'), url('dark-vines-2.png'), url('dark-vines-3.png');
+      background-size: cover, cover, cover;
+      background-repeat: repeat, repeat, repeat;
+      background-position: top-left, bottom right, center;
+      opacity: 0.7; /* Adjust transparency for subtle effect*/
       z-index: -1;
     }
     .record-container {
